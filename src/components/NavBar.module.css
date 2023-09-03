@@ -68,8 +68,8 @@
 
   nav .closeMobileNav {
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 1rem;
+    right: 0.5rem;
   }
 
   .header nav a {

@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { toggleNav } from '../redux/navBarSlice';
-import { BiChevronDown } from 'react-icons/bi';
 import classes from './NavBar.module.css';
 
 const NavBar = (props) => {
@@ -37,6 +36,7 @@ const NavBar = (props) => {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
+    borderRight: '0.5px solid #d3d3d3',
     gap: '2rem',
     backgroundColor: '#fff',
     transition: '1s',
