@@ -1,0 +1,25 @@
+.homeServicesWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  width: 90%;
+}
+
+.sectionHeading {
+  font-size: 2rem;
+  text-align: center;
+  width: 60%;
+}
+
+.borderTop {
+  border-top: 4px dashed #ff0202;
+  width: 10rem;
+}
+
+.sectionDescription {
+  text-align: center;
+  font-weight: 500;
+}

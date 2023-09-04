@@ -1,13 +1,22 @@
+.homeContainer,
+.sliderWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
 .homeContainer {
   margin-top: 5rem;
-  width: 100%;
+  gap: 5rem;
+}
+
+.sliderWrapper {
   min-height: 100vh;
   background-image: url('../../assets/home-background.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  border-bottom: 1px solid #d3d3d3;
 }
