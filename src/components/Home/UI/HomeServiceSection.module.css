@@ -23,3 +23,55 @@
   text-align: center;
   font-weight: 500;
 }
+
+.servicesContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 4rem;
+  padding: 1rem 0;
+}
+
+.serviceWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+  gap: 1rem;
+}
+
+.homeServiceImage {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  border: 0.6rem solid #ff0202;
+}
+
+.homeServiceName {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.homeServiceDescription {
+  text-align: center;
+  color: #999696;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.toServicesButton {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff0202;
+  font-size: 0.85rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.toServicesButton:hover {
+  background-color: #bb2121;
+}
