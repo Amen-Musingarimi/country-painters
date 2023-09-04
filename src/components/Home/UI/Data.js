@@ -110,3 +110,24 @@ export const servicesData = {
     },
   ],
 };
+
+export const ReasonsDataArr = [
+  {
+    id: 1,
+    name: 'Exceptional Craftsmanship',
+    description:
+      "Our team of skilled artisans brings years of experience and meticulous attention to detail to every project. Whether it's painting, tiling, or glazing, we ensure that the final result reflects the highest standards of quality and aesthetics.",
+  },
+  {
+    id: 2,
+    name: 'Reliable Timelines',
+    description:
+      'We understand the importance of reliable timelines. When you choose our services, you can trust that your project will be completed on schedule. Our commitment to punctuality and efficient project management means you can enjoy your newly transformed spaces without unnecessary delays',
+  },
+  {
+    id: 3,
+    name: 'Personalized Solutions',
+    description:
+      'Your unique vision is at the heart of everything we do. We offer personalized solutions tailored to your specific needs and preferences. From selecting the perfect paint colors to choosing the right tiles or glazing options, we collaborate closely with you to turn your ideas into reality',
+  },
+];

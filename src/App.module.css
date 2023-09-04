@@ -13,10 +13,3 @@ body {
   background-color: #fff;
   color: #141c42;
 }
-
-:root {
-  --textWhite: #fff;
-  --mainColorLight: #109c87;
-  --secondaryColor: #db2b39;
-  --textColor: #097969;
-}
