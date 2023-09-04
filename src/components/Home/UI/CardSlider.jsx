@@ -19,11 +19,24 @@ const CardSlider = () => {
     };
   }, []);
 
+  const previousCard = () => {
+    setCurrentCardIndex(
+      (prevIndex) =>
+        (prevIndex - 1 + HomeCardsDataArr.length) % HomeCardsDataArr.length
+    );
+  };
+
+  const nextCard = () => {
+    setCurrentCardIndex(
+      (prevIndex) => (prevIndex + 1) % HomeCardsDataArr.length
+    );
+  };
+
   const currentCard = HomeCardsDataArr[currentCardIndex];
 
   return (
-    <div className={classes.wrappingDiv}>
-      <button className={classes.cardBtn}>
+    <section className={classes.wrappingDiv}>
+      <button onClick={previousCard} className={classes.cardBtn}>
         <FaLessThan />
       </button>
       <div className={classes.welcomeCard}>
@@ -34,10 +47,10 @@ const CardSlider = () => {
           {currentCard.button}
         </Link>
       </div>
-      <button className={classes.cardBtn}>
+      <button onClick={nextCard} className={classes.cardBtn}>
         <FaGreaterThan />
       </button>
-    </div>
+    </section>
   );
 };
 
