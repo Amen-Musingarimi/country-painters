@@ -75,3 +75,35 @@
 .toServicesButton:hover {
   background-color: #bb2121;
 }
+
+@media (max-width: 1024px) {
+  .homeServicesWrapper {
+    width: 100%;
+  }
+
+  .sectionHeading {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeServicesWrapper {
+    padding-top: 0;
+  }
+
+  .sectionHeading {
+    font-size: 1.3rem;
+  }
+
+  .servicesContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .serviceWrapper {
+    width: 100%;
+    gap: 1rem;
+  }
+}
