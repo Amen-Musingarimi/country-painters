@@ -49,7 +49,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   .header {
     justify-content: flex-end;
     gap: 4rem;
@@ -58,7 +58,7 @@
 
   .logo {
     position: absolute;
-    left: 2rem;
+    left: 1rem;
   }
 
   .closeMobileNav,
