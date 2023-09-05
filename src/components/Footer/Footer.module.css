@@ -21,3 +21,18 @@
   align-items: center;
   gap: 1rem;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 5rem;
+    gap: 0.5rem;
+    padding: 2rem 0;
+  }
+
+  .footerText {
+    text-align: center;
+  }
+}

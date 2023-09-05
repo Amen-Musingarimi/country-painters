@@ -46,8 +46,7 @@
 @media (max-width: 768px) {
   .contactSection {
     flex-direction: column;
-    justify-content: flex-start;
-    padding: 1rem;
+    justify-content: center;
     height: 20rem;
     gap: 2rem;
   }
