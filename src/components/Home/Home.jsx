@@ -2,6 +2,7 @@ import React from 'react';
 import CardSlider from './UI/CardSlider';
 import HomeServiceSection from './UI/HomeServiceSection';
 import HomeAboutSummary from './UI/HomeAboutSummary';
+import HomeContactCard from './UI/HomeContactCard';
 import classes from './Home.module.css';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
         <CardSlider />
       </div>
       <HomeServiceSection />
+      <HomeContactCard />
       <HomeAboutSummary />
     </div>
   );
