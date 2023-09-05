@@ -21,14 +21,14 @@ export const HomeCardsDataArr = [
     description: 'ELEVATE YOUR SPACES WITH',
     service: 'Precision Tilling',
     route_path: '/services',
-    button: 'EXPLORE OTHER SERVICES',
+    button: 'VIEW MORE SERVICES',
   },
   {
     id: 3,
     description: 'ENHANCE YOUR SPACE WITH',
     service: 'Stunning Glazing',
     route_path: '/contact-us',
-    button: 'GET IN TOUCH WITH US',
+    button: 'GET IN TOUCH',
   },
 ];
 
