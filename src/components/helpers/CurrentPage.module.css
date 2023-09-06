@@ -10,6 +10,7 @@
 .pageHeading {
   font-weight: 500;
   font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 .navText {
@@ -29,4 +30,5 @@
 .currentPage {
   text-transform: uppercase;
   text-decoration: underline;
+  font-size: 0.8rem;
 }
