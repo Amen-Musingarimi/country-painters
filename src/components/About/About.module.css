@@ -21,6 +21,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 2rem 0;
 }
 
 .welcomText,
@@ -55,4 +56,27 @@
 .appointmentBtn:hover {
   background-color: #ffbf00;
   font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .welcomText,
+  .sectionDescription {
+    width: 80%;
+  }
+
+  .sectionDescription {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .welcomText,
+  .sectionDescription {
+    width: 90%;
+  }
+
+  .welcomText {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
 }
