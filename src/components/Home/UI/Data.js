@@ -7,6 +7,8 @@ import bathroomTiling from '../../../assets/bathroomTiling.jpg';
 import windowGlazing from '../../../assets/windowGlazzing.webp';
 import glassdoorGlazzing from '../../../assets/glassdoorGlazzing.jpg';
 import bathroomMirror from '../../../assets/bathroomGlass.jpg';
+import agree1 from '../../../assets/agreement.jpg';
+import agree2 from '../../../assets/agreement2.jpg';
 
 export const HomeCardsDataArr = [
   {
@@ -129,5 +131,36 @@ export const ReasonsDataArr = [
     name: 'Personalized Solutions',
     description:
       'Your unique vision is at the heart of everything we do. We offer personalized solutions tailored to your specific needs and preferences. From selecting the perfect paint colors to choosing the right tiles or glazing options, we collaborate closely with you to turn your ideas into reality',
+  },
+];
+
+export const AboutUsDataArr = [
+  {
+    id: 1,
+    name: 'About Us',
+    image: agree2,
+    description:
+      'At Country Painters and Glazers, our journey is painted with a commitment to excellence and an eye for detail. With a palette of experience spanning painting, tiling, and glazing, we transform spaces into vibrant canvases of beauty and functionality. Our artisans blend creativity and craftsmanship, bringing your visions to life with precision and care. We take pride in being your trusted partner in enhancing the spaces you call home. Welcome to our world, where every stroke, tile, and glass pane tells a story of quality, dependability, and artistry.',
+  },
+  {
+    id: 2,
+    name: 'Our Mission',
+    image: agree1,
+    description:
+      "Our mission is to elevate your living spaces with a touch of artistry and a commitment to quality. We strive to provide top-notch painting, tiling, and glazing services that breathe life into your surroundings, creating spaces you'll love to call home. With creativity as our brush and craftsmanship as our foundation, we aim to exceed your expectations, one project at a time.",
+  },
+  {
+    id: 3,
+    name: 'Our Vision',
+    image: agree2,
+    description:
+      'Our vision is to be the foremost name in the world of painting, tiling, and glazing, synonymous with innovation, excellence, and reliability. We aspire to continually expand our horizons, pushing boundaries in design and technique to create breathtaking living environments. Our goal is to be your trusted partner, turning your dreams into reality and enriching every space with beauty and functionality.',
+  },
+  {
+    id: 4,
+    name: 'Our Goal',
+    image: agree1,
+    description:
+      'Our goal is to consistently deliver unmatched quality and service, exceeding your expectations in every project we undertake. We aim to be your go-to choice for painting, tiling, and glazing needs, fostering lasting relationships built on trust and satisfaction. Our commitment is to transform your spaces into works of art, making your vision our mission',
   },
 ];

@@ -1,0 +1,59 @@
+.aboutDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid #d3d3d3;
+  width: 50%;
+}
+
+.aboutCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.cardButtons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.toogleDetailsBtn {
+  border: none;
+  background-color: inherit;
+  color: #ff0202;
+  cursor: pointer;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardName {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.detailsCont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cardDescrioption {
+  font-size: 0.88rem;
+  color: #999696;
+}
+
+.aboutImage {
+  width: 12rem;
+  height: 12rem;
+}
