@@ -4,16 +4,15 @@ import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
 import classes from './AboutDetails.module.css';
 
 const AboutDetails = () => {
-  // Initialize state to track whether details are visible for each card
-  const [isDetailsVisible, setIsDetailsVisible] = useState(
-    AboutUsDataArr.map(() => false)
-  );
+  const [openCardIndex, setOpenCardIndex] = useState(-1);
 
-  // Function to toggle the details visibility for a specific card
   const toggleDetails = (index) => {
-    const updatedVisibility = [...isDetailsVisible];
-    updatedVisibility[index] = !updatedVisibility[index];
-    setIsDetailsVisible(updatedVisibility);
+    if (openCardIndex === index) {
+      // Clicking the same card, so close it
+      setOpenCardIndex(-1);
+    } else {
+      setOpenCardIndex(index);
+    }
   };
 
   return (
@@ -25,9 +24,9 @@ const AboutDetails = () => {
             <div className={classes.cardButtons}>
               <button
                 className={classes.toogleDetailsBtn}
-                onClick={() => toggleDetails(index)} // Toggle details visibility
+                onClick={() => toggleDetails(index)}
               >
-                {isDetailsVisible[index] ? (
+                {openCardIndex === index ? (
                   <AiOutlineMinus />
                 ) : (
                   <AiOutlinePlus />
@@ -35,7 +34,7 @@ const AboutDetails = () => {
               </button>
             </div>
           </div>
-          {isDetailsVisible[index] && ( // Only render details if visibility is true
+          {openCardIndex === index && (
             <div className={classes.detailsCont}>
               <img
                 src={card.image}
