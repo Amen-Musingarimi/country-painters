@@ -46,3 +46,27 @@
   font-size: 0.88rem;
   color: #999696;
 }
+
+@media (max-width: 1024px) {
+  .whyUsContainer {
+    width: 100%;
+  }
+
+  .cardDescription,
+  .cardName {
+    font-size: 1.3rem;
+    color: #141c42;
+  }
+}
+
+@media (max-width: 768px) {
+  .whyUsContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cardDescription,
+  .cardName {
+    font-size: 1rem;
+    color: #141c42;
+  }
+}
