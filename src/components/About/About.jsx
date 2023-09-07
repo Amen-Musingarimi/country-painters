@@ -3,6 +3,7 @@ import CurrentPage from '../helpers/CurrentPage';
 import AboutHeader from './AboutHeader';
 import AboutUsSection from './AboutUsSection';
 import CallToAction from './CallToAction';
+import Testimonials from './Testimonials';
 import classes from './About.module.css';
 
 const About = () => {
@@ -12,6 +13,7 @@ const About = () => {
       <AboutHeader />
       <AboutUsSection />
       <CallToAction />
+      <Testimonials />
     </div>
   );
 };

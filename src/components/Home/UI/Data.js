@@ -12,6 +12,10 @@ import agree2 from '../../../assets/agreement2.jpg';
 import { LiaToolsSolid, LiaPhoneVolumeSolid } from 'react-icons/lia';
 import { FiUserCheck } from 'react-icons/fi';
 import { GiPriceTag } from 'react-icons/gi';
+import user1 from '../../../assets/user1.jpg';
+import user2 from '../../../assets/user2.jpg';
+import user3 from '../../../assets/user3.jpg';
+import user4 from '../../../assets/user4.jpg';
 
 export const HomeCardsDataArr = [
   {
@@ -196,5 +200,36 @@ export const WhyUsDataArr = [
     icon: <GiPriceTag />,
     description:
       'We believe that quality should be affordable for all. Our pricing is not only fair but also designed to accommodate various budgets. Additionally, we offer a flexible discount system, making our services accessible to everyone. Experience top-notch craftsmanship without breaking the bank.',
+  },
+];
+
+export const testimonialData = [
+  {
+    name: 'John Smith',
+    image: user1,
+    quote:
+      "I had the pleasure of working with Country Painters on a complete home renovation project. Their attention to detail, dedication, and craftsmanship exceeded my expectations. They transformed my space into a true masterpiece, and I couldn't be happier.",
+    profession: 'Architect',
+  },
+  {
+    name: 'Emily Davis',
+    image: user3,
+    quote:
+      'Country Painters took on the challenging task of tiling my entire home. Their expertise and precision shone through every step of the process. My kitchen, bathroom, and living areas now showcase their impeccable work, and I highly recommend them to anyone seeking top-tier craftsmanship.',
+    profession: 'Homeowner',
+  },
+  {
+    name: 'David Wilson',
+    image: user2,
+    quote:
+      "I entrusted Country Painters with glazing my office windows, and the results are simply outstanding. The natural light that now fills the workspace has had a positive impact on my employees' productivity and well-being. I'm grateful for their exceptional service.",
+    profession: 'Business Owner',
+  },
+  {
+    name: 'Sarah Johnson',
+    image: user4,
+    quote:
+      "Country Painters brought life and personality to my living room with their masterful paintwork. The color selection and application were executed with precision, and the end result is nothing short of stunning. I'm proud to showcase their work in my home.",
+    profession: 'Homeowner',
   },
 ];
