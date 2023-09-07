@@ -19,7 +19,10 @@ const AboutDetails = () => {
     <div className={classes.aboutDetailsContainer}>
       {AboutUsDataArr.map((card, index) => (
         <div className={classes.aboutCard} key={index}>
-          <div className={classes.cardHeader}>
+          <div
+            className={classes.cardHeader}
+            onClick={() => toggleDetails(index)}
+          >
             <h3 className={classes.cardName}>{card.name}</h3>
             <div className={classes.cardButtons}>
               <button
