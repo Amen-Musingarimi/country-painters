@@ -5,6 +5,10 @@
   width: 50%;
 }
 
+.aboutCard:first-child {
+  border-top: 1px solid #d3d3d3;
+}
+
 .aboutCard {
   display: flex;
   flex-direction: column;

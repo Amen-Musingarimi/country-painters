@@ -1,0 +1,68 @@
+.callToActionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4rem;
+  padding: 5rem 1rem;
+  background-color: #141c42;
+  color: #fff;
+  width: 100%;
+}
+
+.setionHeading {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.borderTop {
+  border-top: 4px dashed #ff0202;
+  width: 10rem;
+}
+
+.sectionDescription {
+  font-weight: 400;
+}
+
+.appointmentBtn {
+  text-decoration: none;
+  background-color: #ff0202;
+  color: #fff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.appointmentBtn:hover {
+  background-color: #a30d0d;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1024px) {
+  .setionHeading {
+    width: 80%;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .sectionDescription {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .callToActionContainer {
+    gap: 3rem;
+    padding: 3rem 1rem;
+  }
+
+  .setionHeading {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  .sectionDescription {
+    font-size: 1rem;
+  }
+}
