@@ -36,7 +36,7 @@ const Testimonials = () => {
 
   return (
     <div className={classes.testimonialsContainer}>
-      <h2 className={classes.sectionHeader}>What People Think About Us</h2>
+      <h2 className={classes.sectionHeading}>What People Think About Us</h2>
       <div className={classes.borderTop}></div>
       <div className={classes.quoteContainer}>
         <button className={classes.quoteBtn} onClick={previousCard}>
