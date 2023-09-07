@@ -1,0 +1,48 @@
+.whyUsContainer {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.whyUsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.6rem;
+  border: 1px solid #d3d3d3;
+  padding: 1rem;
+  transition: background-color 0.3s;
+  transform-style: preserve-3d;
+}
+
+@keyframes rotateOnce {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(45deg);
+  }
+}
+
+.whyUsCard:hover {
+  animation: rotateOnce 0.5s linear 1 forwards;
+  background-color: rgb(247, 247, 230);
+}
+
+.icon {
+  color: #ff0202;
+}
+
+.cardName {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.cardDescription {
+  font-size: 0.88rem;
+  color: #999696;
+}

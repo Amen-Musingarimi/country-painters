@@ -9,6 +9,9 @@ import glassdoorGlazzing from '../../../assets/glassdoorGlazzing.jpg';
 import bathroomMirror from '../../../assets/bathroomGlass.jpg';
 import agree1 from '../../../assets/agreement.jpg';
 import agree2 from '../../../assets/agreement2.jpg';
+import { LiaToolsSolid, LiaPhoneVolumeSolid } from 'react-icons/lia';
+import { FiUserCheck } from 'react-icons/fi';
+import { GiPriceTag } from 'react-icons/gi';
 
 export const HomeCardsDataArr = [
   {
@@ -162,5 +165,36 @@ export const AboutUsDataArr = [
     image: agree1,
     description:
       'Our goal is to consistently deliver unmatched quality and service, exceeding your expectations in every project we undertake. We aim to be your go-to choice for painting, tiling, and glazing needs, fostering lasting relationships built on trust and satisfaction. Our commitment is to transform your spaces into works of art, making your vision our mission',
+  },
+];
+
+export const WhyUsDataArr = [
+  {
+    id: 1,
+    name: 'Expert Craftsmanship',
+    icon: <LiaToolsSolid />,
+    description:
+      'We have dedicated years to perfecting our skills and expanding our horizons. Our commitment to excellence drives us to stay at the forefront of our industry, utilizing cutting-edge technology and enhancing the expertise of our artisans. With every project, we aim to deliver superior results that showcase our passion for the craft.',
+  },
+  {
+    id: 2,
+    name: 'Always at Your Service',
+    icon: <LiaPhoneVolumeSolid />,
+    description:
+      "We understand that home projects and emergencies can arise at any time. That's why we're always available, 24/7, ready to address your needs. Our dedicated emergency response team is just a phone call away, ensuring that your concerns are resolved promptly and efficiently.",
+  },
+  {
+    id: 3,
+    name: 'Highly Skilled Team',
+    icon: <FiUserCheck />,
+    description:
+      'Our team comprises highly qualified, educated, and skilled experts who are continuously trained in line with the latest technologies. With a commitment to staying up-to-date and maintaining the highest standards, our agents bring their expertise to every project, ensuring exceptional results.',
+  },
+  {
+    id: 4,
+    name: 'Affordable Excellence',
+    icon: <GiPriceTag />,
+    description:
+      'We believe that quality should be affordable for all. Our pricing is not only fair but also designed to accommodate various budgets. Additionally, we offer a flexible discount system, making our services accessible to everyone. Experience top-notch craftsmanship without breaking the bank.',
   },
 ];
