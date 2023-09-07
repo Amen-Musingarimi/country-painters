@@ -1,8 +1,7 @@
 import React from 'react';
 import CurrentPage from '../helpers/CurrentPage';
 import AboutHeader from './AboutHeader';
-import AboutDetails from './AboutDetails';
-import WhyUs from './WhyUs';
+import AboutUsSection from './AboutUsSection';
 import classes from './About.module.css';
 
 const About = () => {
@@ -10,14 +9,7 @@ const About = () => {
     <div className={classes.aboutDiv}>
       <CurrentPage />
       <AboutHeader />
-      <div className={classes.detailsSection}>
-        <h2 className={classes.setionHeading}>Why Country Painters!</h2>
-        <div className={classes.borderTop}></div>
-        <div className={classes.detailsTextContainers}>
-          <AboutDetails />
-          <WhyUs />
-        </div>
-      </div>
+      <AboutUsSection />
     </div>
   );
 };

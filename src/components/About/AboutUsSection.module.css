@@ -1,0 +1,26 @@
+.detailsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 4rem;
+  border: 1px solid #d3d3d3;
+}
+
+.setionHeading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.borderTop {
+  border-top: 4px dashed #ff0202;
+  width: 10rem;
+}
+
+.detailsTextContainers {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4rem;
+  width: 100%;
+}
