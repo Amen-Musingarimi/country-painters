@@ -44,6 +44,7 @@ export const HomeCardsDataArr = [
 export const servicesData = {
   painting: [
     {
+      id: 1,
       name: 'Interior Painting',
       description: 'Transform your indoor spaces with a fresh coat of paint.',
       image: interiorPainting,
@@ -51,6 +52,7 @@ export const servicesData = {
         'Our interior painting service adds color and vibrancy to your home. We work with you to select the perfect shades and create the atmosphere you desire.',
     },
     {
+      id: 2,
       name: 'Exterior Painting',
       description:
         "Protect and beautify your home's exterior with our painting expertise.",
@@ -59,6 +61,7 @@ export const servicesData = {
         "Enhance your home's curb appeal and protect it from the elements with our high-quality exterior painting services.",
     },
     {
+      id: 3,
       name: 'Commercial Painting',
       description:
         'Make a lasting impression with our professional painting solutions for commercial spaces.',
@@ -70,6 +73,7 @@ export const servicesData = {
 
   tiling: [
     {
+      id: 4,
       name: 'Floor Tiling',
       description: 'Upgrade your floors with our precision tiling solutions.',
       image: floorTiling,
@@ -77,6 +81,7 @@ export const servicesData = {
         'Our floor tiling services offer a wide range of styles and patterns to suit your taste, ensuring durability and elegance in every step.',
     },
     {
+      id: 5,
       name: 'Wall Tiling',
       description: 'Elevate your walls with beautifully tiled surfaces.',
       image: wallTiling,
@@ -84,6 +89,7 @@ export const servicesData = {
         'Create eye-catching accent walls or entire tiled rooms with our wall tiling services, adding a touch of sophistication to your space.',
     },
     {
+      id: 6,
       name: 'Bathroom Tiling',
       description:
         'Revamp your bathroom with our specialized tiling solutions.',
@@ -95,6 +101,7 @@ export const servicesData = {
 
   glazing: [
     {
+      id: 7,
       name: 'Window Glazing',
       description: 'Enhance your windows with our elegant glazing solutions.',
       image: windowGlazing,
@@ -102,6 +109,7 @@ export const servicesData = {
         'Our window glazing services improve energy efficiency, security, and aesthetics, making your home brighter and more inviting.',
     },
     {
+      id: 8,
       name: 'Glass Door Glazing',
       description:
         'Add style and functionality to your glass doors with our glazing options.',
@@ -110,6 +118,7 @@ export const servicesData = {
         'Upgrade your glass doors with our glazing solutions, combining security features with contemporary designs.',
     },
     {
+      id: 9,
       name: 'Mirror Glazing',
       description:
         'Create stunning mirror installations with our glazing expertise.',

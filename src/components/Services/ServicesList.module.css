@@ -1,0 +1,69 @@
+.servicesListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  padding: 1% 5%;
+}
+
+.sectionHeading {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.borderTop {
+  border-top: 4px dashed #ff0202;
+  width: 10rem;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 2rem;
+}
+
+.servicesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3rem;
+  border-right: 1px solid #d3d3d3;
+  padding-right: 2rem;
+  width: 40%;
+}
+
+.serviceItemContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #d3d3d3;
+  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.serviceItemContainer:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.serviceName {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.serviceImage {
+  width: 5rem;
+  height: 5rem;
+}
+
+.serviceImageLarge {
+  width: 15rem;
+  height: 15rem;
+}
