@@ -11,8 +11,12 @@ const About = () => {
       <CurrentPage />
       <AboutHeader />
       <div className={classes.detailsSection}>
-        <AboutDetails />
-        <WhyUs />
+        <h2 className={classes.setionHeading}>Why Country Painters!</h2>
+        <div className={classes.borderTop}></div>
+        <div className={classes.detailsTextContainers}>
+          <AboutDetails />
+          <WhyUs />
+        </div>
       </div>
     </div>
   );
