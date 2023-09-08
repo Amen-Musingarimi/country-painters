@@ -28,21 +28,26 @@ const Contact = () => {
         <ContactForm />
         <div className={classes.addressContainer}>
           <div className={classes.addressDivHeader}>
-            <h4 className={classes.sectionHeading}>Harare Office</h4>
+            <h4 className={classes.sectionHeading}>Main Office</h4>
             <span className={classes.locationIcon}>
               <MdLocationPin />
             </span>
           </div>
-          <p className={classes.address}>862 Mabvazuva, Harare, Zimbabwe</p>
-          <p className={classes.phoneNumber}>Phone: +263 77-913-7069</p>
-          <a
-            href="mailto:zvikoh.matewa@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-            className={classes.emailAddress}
-          >
-            zvikoh.matewa@gmail.com
-          </a>
+          <div className={classes.textWrapper}>
+            <p className={classes.address}>862 Mabvazuva, Rusape, Zimbabwe</p>
+            <p className={classes.phoneNumber}>Phone: +263 77-913-7069</p>
+            <p className={classes.emailWraper}>
+              Email:{' '}
+              <a
+                href="mailto:zvikoh.matewa@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className={classes.emailAddress}
+              >
+                zvikoh.matewa@gmail.com
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -20,3 +20,51 @@
   padding: 4% 5%;
   gap: 2rem;
 }
+
+.addressContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #070d30;
+  color: #fff;
+  width: 60%;
+  gap: 2rem;
+  border-radius: 4px;
+}
+
+.addressDivHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sectionHeading {
+  padding: 1rem 2rem;
+  background-color: #141c42;
+  width: 90%;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.locationIcon {
+  width: 10%;
+  padding: 1rem 2rem;
+  background-color: #ee4b2b;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0rem 0rem 2rem 2rem;
+  gap: 1rem;
+}
+
+.address,
+.phoneNumber,
+.emailWraper {
+  font-size: 0.85rem;
+  color: #d4d4d4;
+}
