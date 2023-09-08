@@ -41,97 +41,11 @@ export const HomeCardsDataArr = [
   },
 ];
 
-export const servicesData = {
-  painting: [
-    {
-      id: 1,
-      name: 'Interior Painting',
-      description: 'Transform your indoor spaces with a fresh coat of paint.',
-      image: interiorPainting,
-      overview:
-        'Our interior painting service adds color and vibrancy to your home. We work with you to select the perfect shades and create the atmosphere you desire.',
-    },
-    {
-      id: 2,
-      name: 'Exterior Painting',
-      description:
-        "Protect and beautify your home's exterior with our painting expertise.",
-      image: exteriorPainting,
-      overview:
-        "Enhance your home's curb appeal and protect it from the elements with our high-quality exterior painting services.",
-    },
-    {
-      id: 3,
-      name: 'Commercial Painting',
-      description:
-        'Make a lasting impression with our professional painting solutions for commercial spaces.',
-      image: commercialPainting,
-      overview:
-        'We specialize in creating inviting and impactful commercial environments through our tailored painting services.',
-    },
-  ],
-
-  tiling: [
-    {
-      id: 4,
-      name: 'Floor Tiling',
-      description: 'Upgrade your floors with our precision tiling solutions.',
-      image: floorTiling,
-      overview:
-        'Our floor tiling services offer a wide range of styles and patterns to suit your taste, ensuring durability and elegance in every step.',
-    },
-    {
-      id: 5,
-      name: 'Wall Tiling',
-      description: 'Elevate your walls with beautifully tiled surfaces.',
-      image: wallTiling,
-      overview:
-        'Create eye-catching accent walls or entire tiled rooms with our wall tiling services, adding a touch of sophistication to your space.',
-    },
-    {
-      id: 6,
-      name: 'Bathroom Tiling',
-      description:
-        'Revamp your bathroom with our specialized tiling solutions.',
-      image: bathroomTiling,
-      overview:
-        "Upgrade your bathroom's aesthetics and functionality with our expert tiling services, from showers to countertops.",
-    },
-  ],
-
-  glazing: [
-    {
-      id: 7,
-      name: 'Window Glazing',
-      description: 'Enhance your windows with our elegant glazing solutions.',
-      image: windowGlazing,
-      overview:
-        'Our window glazing services improve energy efficiency, security, and aesthetics, making your home brighter and more inviting.',
-    },
-    {
-      id: 8,
-      name: 'Glass Door Glazing',
-      description:
-        'Add style and functionality to your glass doors with our glazing options.',
-      image: glassdoorGlazzing,
-      overview:
-        'Upgrade your glass doors with our glazing solutions, combining security features with contemporary designs.',
-    },
-    {
-      id: 9,
-      name: 'Mirror Glazing',
-      description:
-        'Create stunning mirror installations with our glazing expertise.',
-      image: bathroomMirror,
-      overview:
-        'Our mirror glazing services add elegance and depth to your spaces, from full-wall mirrors to custom designs.',
-    },
-  ],
-};
-
 export const servicesDataArr = {
   painting: {
     image: interiorPainting,
+    description:
+      'Elevate the ambiance of your space with our expert painting service, where every brushstroke reflects craftsmanship and creativity.',
     overview:
       "Transform your living spaces with our professional painting service. Whether you're looking to refresh the interior, enhance the exterior, or create a new ambiance, we've got you covered. Our skilled painters bring a splash of color and creativity to your walls, making your home or office a canvas of endless possibilities. With a commitment to quality and an eye for detail, we turn your vision into reality. Choose our painting service for a vibrant and refreshed environment that suits your style and preferences.",
     subSections: [
@@ -166,6 +80,8 @@ export const servicesDataArr = {
 
   tiling: {
     image: floorTiling,
+    description:
+      'Achieve the perfect blend of style and durability with our meticulous tiling service, where high-quality materials meet precise installation for exceptional results.',
     overview:
       "Discover the elegance of beautifully tiled surfaces with our tiling service. Whether it's floors, walls, or bathrooms, we specialize in precision tiling solutions that upgrade your space. Our extensive range of styles and patterns ensures there's something to suit every taste. We don't just create tiled surfaces; we craft works of art that stand the test of time. From durable floor tiles to eye-catching accent walls, our tiling service adds a touch of luxury and functionality to your home or business. Elevate your space with our expert craftsmanship.",
     subSections: [
@@ -199,6 +115,8 @@ export const servicesDataArr = {
 
   glazing: {
     image: windowGlazing,
+    description:
+      'Transform your windows and glass surfaces into stunning focal points with our professional glazing service, enhancing both aesthetics and functionality.',
     overview:
       'Elevate your spaces with our premium glazing solutions. From windows to glass doors, we add a touch of sophistication and functionality to your home or office. Our expert glaziers enhance energy efficiency, security, and aesthetics, making your space brighter and more inviting. With a range of contemporary designs and options, we transform your glass features into stunning focal points. Trust our glazing service to combine style, safety, and modernity for a truly exceptional experience.',
     subSections: [

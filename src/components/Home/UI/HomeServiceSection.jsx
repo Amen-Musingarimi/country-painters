@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './HomeServiceSection.module.css';
-import { servicesData } from './Data';
+import { servicesDataArr } from './Data';
 import { Link } from 'react-router-dom';
 
 const HomeServiceSection = () => {
-  const categories = Object.keys(servicesData);
+  const categories = Object.keys(servicesDataArr);
 
   return (
     <section className={classes.homeServicesWrapper}>
@@ -17,18 +17,17 @@ const HomeServiceSection = () => {
         services that elevate both residential and commercial interiors.
       </p>
       <div className={classes.servicesContainer}>
-        {categories.map((category) => {
-          const firstService = servicesData[category][0];
+        {Object.keys(servicesDataArr).map((section) => {
           return (
-            <div key={category} className={classes.serviceWrapper}>
+            <div key={section} className={classes.serviceWrapper}>
               <img
                 className={classes.homeServiceImage}
-                src={firstService.image}
-                alt={firstService.name}
+                src={servicesDataArr[section].image}
+                alt="ServiceImage"
               />
-              <h3 className={classes.homeServiceName}>{firstService.name}</h3>
+              <h3 className={classes.homeServiceName}>{section}</h3>
               <p className={classes.homeServiceDescription}>
-                {firstService.description}
+                {servicesDataArr[section].description}
               </p>
             </div>
           );
