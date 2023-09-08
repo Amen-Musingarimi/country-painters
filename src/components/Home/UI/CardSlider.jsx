@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { HomeCardsDataArr } from './Data';
-import { FaGreaterThan, FaLessThan } from 'react-icons/fa';
+import { GrNext, GrPrevious } from 'react-icons/gr';
 import classes from './Cards.module.css';
 
 const CardSlider = () => {
@@ -37,7 +37,7 @@ const CardSlider = () => {
   return (
     <section className={classes.wrappingDiv}>
       <button onClick={previousCard} className={classes.cardBtn}>
-        <FaLessThan />
+        <GrPrevious />
       </button>
       <div className={classes.welcomeCard}>
         <div className={classes.borderTop}></div>
@@ -48,7 +48,7 @@ const CardSlider = () => {
         </Link>
       </div>
       <button onClick={nextCard} className={classes.cardBtn}>
-        <FaGreaterThan />
+        <GrNext />
       </button>
     </section>
   );
