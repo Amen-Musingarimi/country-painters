@@ -1,5 +1,7 @@
 import React from 'react';
 import CurrentPage from '../helpers/CurrentPage';
+import ContactForm from './ContactForm';
+import { MdLocationPin } from 'react-icons/md';
 import classes from './Contact.module.css';
 
 const Contact = () => {
@@ -20,6 +22,27 @@ const Contact = () => {
           >
             <a href="https://www.maps.ie/population/">Find Population on Map</a>
           </iframe>
+        </div>
+      </div>
+      <div className={classes.contactSection}>
+        <ContactForm />
+        <div className={classes.addressContainer}>
+          <div className={classes.addressDivHeader}>
+            <h4 className={classes.sectionHeading}>Harare Office</h4>
+            <span className={classes.locationIcon}>
+              <MdLocationPin />
+            </span>
+          </div>
+          <p className={classes.address}>862 Mabvazuva, Harare, Zimbabwe</p>
+          <p className={classes.phoneNumber}>Phone: +263 77-913-7069</p>
+          <a
+            href="mailto:zvikoh.matewa@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            className={classes.emailAddress}
+          >
+            zvikoh.matewa@gmail.com
+          </a>
         </div>
       </div>
     </div>

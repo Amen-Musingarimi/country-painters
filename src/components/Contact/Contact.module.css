@@ -6,9 +6,17 @@
   min-height: 100vh;
   justify-content: flex-start;
   margin-top: 5rem;
-  margin-bottom: 4rem;
 }
 
 .iframMap {
   width: 100%;
+}
+
+.contactSection {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 4% 5%;
+  gap: 2rem;
 }
