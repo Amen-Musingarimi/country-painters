@@ -11,6 +11,7 @@
 .sectionHeading {
   font-size: 1.6rem;
   font-weight: 700;
+  padding-top: 2rem;
 }
 
 .borderTop {
@@ -170,10 +171,66 @@
   padding: 0.5rem 1rem;
   border-radius: 4px;
   font-size: 0.88rem;
+  text-align: center;
   cursor: pointer;
 }
 
 .bookServiceBtn:hover {
   background-color: #a30d0d;
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .servicesList {
+    width: 30%;
+  }
+
+  .serviceDetails {
+    width: 70%;
+  }
+
+  .subServiceDetailsCont {
+    flex-direction: column;
+  }
+
+  .subServiceImage {
+    width: 100%;
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .servicesListContainer {
+    gap: 2rem;
+  }
+
+  .listContainer {
+    flex-direction: column;
+  }
+
+  .servicesList {
+    width: 100%;
+    padding-right: 0;
+    gap: 1rem;
+  }
+
+  .serviceDetails {
+    width: 100%;
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .sectionImage {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .subServiceImage {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .bookServiceBtn {
+    width: 100%;
+  }
 }

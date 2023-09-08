@@ -54,8 +54,18 @@
 }
 
 @media (max-width: 768px) {
+  .servicesHeaderContainer {
+    align-items: center;
+    gap: 2.5rem;
+  }
+
   .sectionHeading {
     font-size: 1.6rem;
     width: 100%;
+    text-align: center;
+  }
+
+  .sectionDescription {
+    text-align: center;
   }
 }
