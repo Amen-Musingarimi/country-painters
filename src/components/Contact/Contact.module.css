@@ -68,3 +68,38 @@
   font-size: 0.85rem;
   color: #d4d4d4;
 }
+
+@media only screen and (max-width: 1024px) {
+  .addressContainer {
+    width: 50%;
+  }
+
+  .address,
+  .phoneNumber,
+  .emailWraper {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .textWrapper {
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contactSection {
+    flex-direction: column;
+  }
+
+  .addressContainer {
+    width: 100%;
+    order: -1;
+  }
+
+  .address,
+  .phoneNumber,
+  .emailWraper {
+    font-size: 0.85rem;
+    color: #d4d4d4;
+  }
+}
