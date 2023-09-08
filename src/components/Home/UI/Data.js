@@ -141,7 +141,7 @@ export const servicesDataArr = {
         description: 'Transform your indoor spaces with a fresh coat of paint.',
         image: interiorPainting,
         overview:
-          'Our interior painting service adds color and vibrancy to your home. We work with you to select the perfect shades and create the atmosphere you desire.',
+          "Elevate the ambiance of your living spaces with our Interior Painting expertise. Our highly skilled painters bring a wealth of experience to every project, ensuring a flawless finish. We're equipped to handle a wide range of interior painting needs, including wall painting, ceiling painting, trim work, and more. With an extensive palette of colors at your disposal, we cater to your unique preferences. Whether you seek a tranquil retreat with soft pastels or a bold statement with vibrant hues, we have the perfect shades to match your vision.",
       },
       {
         id: 2,
@@ -150,7 +150,7 @@ export const servicesDataArr = {
           "Protect and beautify your home's exterior with our painting expertise.",
         image: exteriorPainting,
         overview:
-          "Enhance your home's curb appeal and protect it from the elements with our high-quality exterior painting services.",
+          "Enhance the beauty and durability of your home with our Exterior Painting service. Our skilled team of painters possesses the expertise required for outdoor projects, guaranteeing a lasting and appealing result. We're well-versed in painting exterior walls, trims, doors, and even intricate details like shutters. Our extensive selection of exterior paint colors allows you to choose the perfect palette for your home's curb appeal. From classic neutrals that exude elegance to bold shades that make a statement, we offer a wide spectrum of options.",
       },
       {
         id: 3,
@@ -159,7 +159,7 @@ export const servicesDataArr = {
           'Make a lasting impression with our professional painting solutions for commercial spaces.',
         image: commercialPainting,
         overview:
-          'We specialize in creating inviting and impactful commercial environments through our tailored painting services.',
+          "Make a bold statement in the business world with our Commercial Painting solutions. Our team of skilled professionals possesses the expertise needed to cater to diverse commercial environments. Whether you're looking to refresh office spaces, restaurants, retail outlets, or industrial facilities, we have the skills and resources to exceed your expectations. Our commercial painting services encompass a comprehensive array of surfaces, from walls and ceilings to intricate details and fixtures. We understand the importance of color psychology in commercial settings, and our extensive color palette ensures that we can meet your branding and ambiance goals.",
       },
     ],
   },
@@ -175,7 +175,7 @@ export const servicesDataArr = {
         description: 'Upgrade your floors with our precision tiling solutions.',
         image: floorTiling,
         overview:
-          'Our floor tiling services offer a wide range of styles and patterns to suit your taste, ensuring durability and elegance in every step.',
+          'Elevate your floors to new heights of elegance with our Floor Tiling service. Our skilled craftsmen are well-versed in the art of precision tiling, ensuring that every square foot of your flooring is a work of perfection. Whether you desire the timeless charm of ceramic, the rustic allure of porcelain, or the luxurious beauty of natural stone, we have the skills and materials to make it happen. We offer a diverse range of patterns and styles to cater to your aesthetic preferences. ',
       },
       {
         id: 5,
@@ -183,7 +183,7 @@ export const servicesDataArr = {
         description: 'Elevate your walls with beautifully tiled surfaces.',
         image: wallTiling,
         overview:
-          'Create eye-catching accent walls or entire tiled rooms with our wall tiling services, adding a touch of sophistication to your space.',
+          "Add a touch of artistic flair to your walls with our Wall Tiling service. Our expert tilers are masters at transforming blank surfaces into captivating focal points. Whether it's accent walls, backsplashes, or entire tiled rooms, we have the expertise to create stunning tiled surfaces that elevate your interiors. Our skillful hands work with a variety of materials, from ceramic and glass to subway tiles and custom designs. We offer a wide spectrum of patterns and colors to suit your vision, from modern minimalism to intricate mosaics. ",
       },
       {
         id: 6,
@@ -192,7 +192,7 @@ export const servicesDataArr = {
           'Revamp your bathroom with our specialized tiling solutions.',
         image: bathroomTiling,
         overview:
-          "Upgrade your bathroom's aesthetics and functionality with our expert tiling services, from showers to countertops.",
+          "Revamp your bathroom with our specialized Bathroom Tiling service. Our seasoned professionals understand the unique demands of bathroom environments, and we're here to transform your space into a haven of beauty and functionality. From showers and tub surrounds to countertops and floors, we bring precision tiling skills to every corner of your bathroom. We offer a wide selection of moisture-resistant materials, ensuring longevity and elegance. Whether you prefer the timeless sophistication of marble or the modern appeal of subway tiles, we have the expertise to deliver. ",
       },
     ],
   },
@@ -208,7 +208,7 @@ export const servicesDataArr = {
         description: 'Enhance your windows with our elegant glazing solutions.',
         image: windowGlazing,
         overview:
-          'Our window glazing services improve energy efficiency, security, and aesthetics, making your home brighter and more inviting.',
+          'Elevate your windows with our Window Glazing service. Our expert glaziers specialize in enhancing the energy efficiency, security, and aesthetics of your windows. We bring a wealth of experience to every project, ensuring your home or business becomes brighter, more inviting, and energy-efficient. We offer a comprehensive range of window glazing options, from double glazing for insulation to custom decorative designs that add character to your property.',
       },
       {
         id: 8,
@@ -217,7 +217,7 @@ export const servicesDataArr = {
           'Add style and functionality to your glass doors with our glazing options.',
         image: glassdoorGlazzing,
         overview:
-          'Upgrade your glass doors with our glazing solutions, combining security features with contemporary designs.',
+          "Transform your glass doors into stylish and functional elements with our Glass Door Glazing service. Our skilled glaziers possess the expertise needed to enhance both the aesthetics and practicality of your glass doors. Whether it's for residential or commercial spaces, we have the skills and design sensibility to create elegant and secure glazing solutions. We offer a wide range of glazing options, from frosted privacy glass to contemporary decorative designs. ",
       },
       {
         id: 9,
@@ -226,7 +226,7 @@ export const servicesDataArr = {
           'Create stunning mirror installations with our glazing expertise.',
         image: bathroomMirror,
         overview:
-          'Our mirror glazing services add elegance and depth to your spaces, from full-wall mirrors to custom designs.',
+          "Create stunning mirror installations with our Mirror Glazing service. Our skilled glaziers possess the artistry and precision required to add elegance and depth to your spaces with custom mirror designs. Whether you're looking for full-wall mirrors, unique mirror shapes, or custom-designed mirror installations, we have the skills to bring your vision to life. We offer a wide range of mirror options, including framed and frameless mirrors, to suit your style and space requirements.",
       },
     ],
   },
