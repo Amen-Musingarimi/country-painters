@@ -4,8 +4,6 @@ import { servicesDataArr } from './Data';
 import { Link } from 'react-router-dom';
 
 const HomeServiceSection = () => {
-  const categories = Object.keys(servicesDataArr);
-
   return (
     <section className={classes.homeServicesWrapper}>
       <h2 className={classes.sectionHeading}>

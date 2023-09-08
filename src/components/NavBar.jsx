@@ -74,7 +74,7 @@ const NavBar = (props) => {
           SERVICES
         </NavLink>
         <NavLink
-          to="/contact-us"
+          to="/contact"
           exact={true}
           activeClassName={classes.active}
           onClick={handleNav}
