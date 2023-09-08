@@ -132,7 +132,8 @@ export const servicesData = {
 export const servicesDataArr = {
   painting: {
     image: interiorPainting,
-    overview: 'Discover our painting services and transform your spaces.',
+    overview:
+      "Transform your living spaces with our professional painting service. Whether you're looking to refresh the interior, enhance the exterior, or create a new ambiance, we've got you covered. Our skilled painters bring a splash of color and creativity to your walls, making your home or office a canvas of endless possibilities. With a commitment to quality and an eye for detail, we turn your vision into reality. Choose our painting service for a vibrant and refreshed environment that suits your style and preferences.",
     subSections: [
       {
         id: 1,
@@ -165,7 +166,8 @@ export const servicesDataArr = {
 
   tiling: {
     image: floorTiling,
-    overview: 'Explore our tiling services and elevate your spaces.',
+    overview:
+      "Discover the elegance of beautifully tiled surfaces with our tiling service. Whether it's floors, walls, or bathrooms, we specialize in precision tiling solutions that upgrade your space. Our extensive range of styles and patterns ensures there's something to suit every taste. We don't just create tiled surfaces; we craft works of art that stand the test of time. From durable floor tiles to eye-catching accent walls, our tiling service adds a touch of luxury and functionality to your home or business. Elevate your space with our expert craftsmanship.",
     subSections: [
       {
         id: 4,
@@ -197,7 +199,8 @@ export const servicesDataArr = {
 
   glazing: {
     image: windowGlazing,
-    overview: 'Enhance your spaces with our glazing solutions.',
+    overview:
+      'Elevate your spaces with our premium glazing solutions. From windows to glass doors, we add a touch of sophistication and functionality to your home or office. Our expert glaziers enhance energy efficiency, security, and aesthetics, making your space brighter and more inviting. With a range of contemporary designs and options, we transform your glass features into stunning focal points. Trust our glazing service to combine style, safety, and modernity for a truly exceptional experience.',
     subSections: [
       {
         id: 7,

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { servicesDataArr } from '../Home/UI/Data';
-import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
+import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
+
 import classes from './ServicesList.module.css';
+import { Link } from 'react-router-dom';
 
 const ServicesList = () => {
   const [selectedSection, setSelectedSection] = useState('painting');
@@ -45,18 +47,22 @@ const ServicesList = () => {
             </div>
           ))}
         </div>
-        <div className={classes.itemDetails}>
+        <div className={classes.serviceDetails}>
           {selectedSection && (
             <>
-              <img
-                src={servicesDataArr[selectedSection].image}
-                alt="SectionImage"
-                className={classes.sectionImage}
-              />
-              <p className={classes.sectionOverview}>
-                {servicesDataArr[selectedSection].overview}
-              </p>
-
+              <div className={classes.mainServiceHeader}>
+                <img
+                  src={servicesDataArr[selectedSection].image}
+                  alt="SectionImage"
+                  className={classes.sectionImage}
+                />
+                <h3 className={classes.serviceOverviewHeading}>
+                  Service Overview
+                </h3>
+                <p className={classes.sectionOverview}>
+                  {servicesDataArr[selectedSection].overview}
+                </p>
+              </div>
               <div className={classes.subSectionsContainer}>
                 {servicesDataArr[selectedSection].subSections.map(
                   (subSection, index) => (
@@ -72,23 +78,34 @@ const ServicesList = () => {
                             onClick={() => toggleDetails(index)}
                           >
                             {openCardIndex === index ? (
-                              <AiOutlineMinus />
+                              <AiOutlineUp />
                             ) : (
-                              <AiOutlinePlus />
+                              <AiOutlineDown />
                             )}
                           </button>
                         </div>
                       </div>
                       {openCardIndex === index && (
-                        <div className={classes.detailsCont}>
+                        <div className={classes.subServiceDetailsCont}>
                           <img
                             src={subSection.image}
                             alt="ServiceImage"
                             className={classes.subServiceImage}
                           />
-                          <p className={classes.cardDescrioption}>
-                            {subSection.description}
-                          </p>
+                          <div className={classes.subServiceCaerdTextCont}>
+                            <h4 className={classes.cardTextHeading}>
+                              Brief Service Overview
+                            </h4>
+                            <p className={classes.cardDescrioption}>
+                              {subSection.overview}
+                            </p>
+                            <Link
+                              to="/contact"
+                              className={classes.bookServiceBtn}
+                            >
+                              BOOK NOW
+                            </Link>
+                          </div>
                         </div>
                       )}
                     </div>
