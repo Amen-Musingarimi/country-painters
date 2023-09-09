@@ -15,7 +15,7 @@
 
 .sliderWrapper {
   justify-content: center;
-  min-height: 100vh;
+  min-height: 90vh;
   background-image: url('../../assets/home-background.jpg');
   background-size: cover;
   background-position: center center;
