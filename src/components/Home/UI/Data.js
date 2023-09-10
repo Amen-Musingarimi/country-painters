@@ -36,7 +36,7 @@ export const HomeCardsDataArr = [
     id: 3,
     description: 'ENHANCE YOUR SPACE WITH',
     service: 'Stunning Glazing',
-    route_path: '/contact-us',
+    route_path: '/contact',
     button: 'GET IN TOUCH',
   },
 ];

@@ -46,7 +46,7 @@ const NavBar = (props) => {
   return (
     <header className={classes.header}>
       <h3 className={classes.logo}>
-        COUNTRY <span className={classes.redLogo}>PAINTERS</span>
+        COUNTRY PAINTERS <span className={classes.redLogo}>& GLAZERS</span>
       </h3>
       <nav style={isMobile ? navStyle : {}} className={classes.nav}>
         <NavLink
