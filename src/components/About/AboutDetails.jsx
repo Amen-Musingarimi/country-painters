@@ -8,7 +8,6 @@ const AboutDetails = () => {
 
   const toggleDetails = (index) => {
     if (openCardIndex === index) {
-      // Clicking the same card, so close it
       setOpenCardIndex(-1);
     } else {
       setOpenCardIndex(index);

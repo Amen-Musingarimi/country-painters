@@ -43,8 +43,10 @@
 }
 
 .cardDescription {
-  font-size: 0.88rem;
-  color: #6e6d6d;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #999696;
+  line-height: 1.5rem;
 }
 
 @media (max-width: 1024px) {

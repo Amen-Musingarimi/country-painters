@@ -103,8 +103,10 @@
 
 .sectionOverview,
 .cardDescrioption {
-  font-size: 0.88rem;
+  font-weight: 500;
+  font-size: 0.9rem;
   color: #999696;
+  line-height: 1.5rem;
 }
 
 .subSectionsContainer {

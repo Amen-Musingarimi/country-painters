@@ -54,8 +54,10 @@
 }
 
 .cardDescrioption {
-  font-size: 0.88rem;
+  font-size: 0.9rem;
+  font-weight: 500;
   color: #999696;
+  line-height: 1.5rem;
 }
 
 .aboutImage {
