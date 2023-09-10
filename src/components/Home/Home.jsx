@@ -1,5 +1,6 @@
 import React from 'react';
 import CardSlider from './UI/CardSlider';
+import HomeWhoWeAre from './UI/HomeWhoWeAre';
 import HomeServiceSection from './UI/HomeServiceSection';
 import HomeAboutSummary from './UI/HomeAboutSummary';
 import HomeContactCard from './UI/HomeContactCard';
@@ -11,6 +12,7 @@ const Home = () => {
       <div className={classes.sliderWrapper}>
         <CardSlider />
       </div>
+      <HomeWhoWeAre />
       <HomeServiceSection />
       <HomeContactCard />
       <HomeAboutSummary />

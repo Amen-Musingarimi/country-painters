@@ -22,6 +22,11 @@
   font-weight: 600;
 }
 
+.sectionDescription {
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
 .contactButton {
   text-decoration: none;
   color: #fff;
@@ -58,6 +63,7 @@
 
   .sectionHeading {
     text-align: center;
+    font-size: 1.3rem;
   }
 
   .sectionDescription {

@@ -49,19 +49,16 @@
 .aboutLink {
   text-decoration: none;
   text-align: center;
-  font-weight: 400;
-  color: #ffea00;
-  border: 1px solid #ffd700;
-  opacity: 1;
-  background-color: #fff;
+  background-color: #ff0202;
+  color: #fff;
+  padding: 0.7rem 1.4rem;
   border-radius: 4px;
-  padding: 0.7rem 1rem;
   cursor: pointer;
 }
 
 .aboutLink:hover {
-  background-color: #ffd700;
-  color: #fff;
+  background-color: #a30d0d;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 1024px) {

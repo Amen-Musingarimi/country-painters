@@ -14,16 +14,17 @@
 
 .sectionHeading {
   font-size: 2rem;
+  font-weight: 700;
 }
 
 .borderTop {
   border-top: 4px dashed #ff0202;
-  width: 70%;
+  width: 10rem;
 }
 
 .sectionDescription {
   font-weight: 500;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
 }
 
 .reasonsContainer {
@@ -59,7 +60,7 @@
 
 .reasonDescription {
   color: #807d7d;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
   font-size: 0.9rem;
   font-weight: 500;
 }
