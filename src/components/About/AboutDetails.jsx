@@ -43,7 +43,7 @@ const AboutDetails = () => {
                 alt="AboutUsImage"
                 className={classes.aboutImage}
               />
-              <p className={classes.cardDescrioption}>{card.description}</p>
+              <p className={classes.cardDescription}>{card.description}</p>
             </div>
           )}
         </div>

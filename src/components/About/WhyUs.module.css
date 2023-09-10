@@ -19,18 +19,8 @@
   transform-style: preserve-3d;
 }
 
-@keyframes rotateOnce {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
-}
-
 .whyUsCard:hover {
-  animation: rotateOnce 0.5s linear 1 forwards;
-  background-color: rgb(247, 247, 230);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .icon {
