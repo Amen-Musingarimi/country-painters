@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { toggleNav } from '../redux/navBarSlice';
-import classes from './NavBar.module.css';
+import './NavBar.css';
 
 const NavBar = (props) => {
   const dispatch = useDispatch();
@@ -44,15 +44,15 @@ const NavBar = (props) => {
   };
 
   return (
-    <header className={classes.header}>
-      <h3 className={classes.logo}>
-        COUNTRY PAINTERS <span className={classes.redLogo}>& GLAZERS</span>
+    <header className="header">
+      <h3 className="logo">
+        COUNTRY PAINTERS <span className="redLogo">& GLAZERS</span>
       </h3>
-      <nav style={isMobile ? navStyle : {}} className={classes.nav}>
+      <nav style={isMobile ? navStyle : {}} className="nav">
         <NavLink
           to="/"
           exact={true}
-          activeClassName={classes.active}
+          activeClassName="active"
           onClick={handleNav}
         >
           HOME
@@ -60,7 +60,7 @@ const NavBar = (props) => {
         <NavLink
           to="/about"
           exact={true}
-          activeClassName={classes.active}
+          activeClassName="active"
           onClick={handleNav}
         >
           ABOUT
@@ -68,7 +68,7 @@ const NavBar = (props) => {
         <NavLink
           to="/services"
           exact={true}
-          activeClassName={classes.active}
+          activeClassName="active"
           onClick={handleNav}
         >
           SERVICES
@@ -76,16 +76,16 @@ const NavBar = (props) => {
         <NavLink
           to="/contact"
           exact={true}
-          activeClassName={classes.active}
+          activeClassName="active"
           onClick={handleNav}
         >
           CONTACT US
         </NavLink>
-        <button className={classes.closeMobileNav} onClick={handleNav}>
+        <button className="closeMobileNav" onClick={handleNav}>
           <FaTimes />
         </button>
       </nav>
-      <button className={classes.openMobileNav} onClick={handleNav}>
+      <button className="openMobileNav" onClick={handleNav}>
         <FaBars />
       </button>
     </header>
