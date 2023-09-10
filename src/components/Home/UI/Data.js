@@ -1,4 +1,5 @@
 import interiorPainting from '../../../assets/interior-painting.jpg';
+import painting from '../../../assets/home-background.jpg';
 import exteriorPainting from '../../../assets/exterior.jpg';
 import commercialPainting from '../../../assets/commercial-painting.jpg';
 import floorTiling from '../../../assets/floorTilling.jpg';
@@ -43,7 +44,7 @@ export const HomeCardsDataArr = [
 
 export const servicesDataArr = {
   painting: {
-    image: interiorPainting,
+    image: painting,
     description:
       'Elevate the ambiance of your space with our expert painting service, where every brushstroke reflects craftsmanship and creativity.',
     overview:
@@ -114,7 +115,7 @@ export const servicesDataArr = {
   },
 
   glazing: {
-    image: windowGlazing,
+    image: glassdoorGlazzing,
     description:
       'Transform your windows and glass surfaces into stunning focal points with our professional glazing service, enhancing both aesthetics and functionality.',
     overview:
