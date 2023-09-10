@@ -44,7 +44,6 @@
     width: 100%;
   }
 
-  .cardDescription,
   .cardName {
     font-size: 1.3rem;
     color: #141c42;
@@ -56,7 +55,6 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .cardDescription,
   .cardName {
     font-size: 1rem;
     color: #141c42;
