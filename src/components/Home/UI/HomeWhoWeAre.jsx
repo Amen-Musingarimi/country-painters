@@ -13,18 +13,27 @@ const HomeWhoWeAre = () => {
             Country Painters & Glazers Pvt Ltd is a fully registered company in
             Zimbabwe. We provide painting, glazing, and tiling services,
             analyzing and determining the best cost-effective and regulatory
-            design to suit your needs. We have developed and maintained great
-            relationships with our contracting teams, which brings you, our
-            client, the best possible service.
+            design to suit your needs. We have developed and maintained strong
+            relationships with our partners, ensuring that you, our valued
+            client, receive the best possible service.
           </span>
           <span>
-            Ibwe is customer driven accomplished by listening to our clients'
-            needs and concerns and addressing them in a timely and effective
-            fashion through our interactive digital platforms and welcoming
-            personnel. We believe in making the creation of your dreams an
-            enjoyable experience
+            Country Painters is customer driven accomplished by listening to our
+            clients' needs and concerns and addressing them in a timely and
+            effective fashion through our interactive digital platforms and
+            welcoming personnel. We believe in making the creation of your
+            dreams an enjoyable experience
           </span>
         </p>
+        <div>
+          <h4 className={classes.attentionHeading}>
+            Your vision, our creation!{' '}
+          </h4>
+          <p className={classes.attentionText}>
+            From new builds to renovations, we handle everything from planning
+            to flawless execution.
+          </p>
+        </div>
       </div>
       <img src={image} alt="ImageWorkers" className={classes.sectionImage} />
     </div>
