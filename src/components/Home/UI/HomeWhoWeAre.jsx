@@ -25,15 +25,6 @@ const HomeWhoWeAre = () => {
             dreams an enjoyable experience
           </span>
         </p>
-        <div>
-          <h4 className={classes.attentionHeading}>
-            Your vision, our creation!{' '}
-          </h4>
-          <p className={classes.attentionText}>
-            From new builds to renovations, we handle everything from planning
-            to flawless execution.
-          </p>
-        </div>
       </div>
       <img src={image} alt="ImageWorkers" className={classes.sectionImage} />
     </div>

@@ -35,16 +35,6 @@
   line-height: 1.5rem;
 }
 
-.attentionHeading {
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-.attentionText {
-  font-weight: 500;
-  line-height: 1.5rem;
-}
-
 .sectionImage {
   border: 1rem solid #ffbf00;
   width: 40%;
@@ -86,14 +76,6 @@
   }
 
   .sectionDescription {
-    text-align: center;
-  }
-
-  .attentionHeading {
-    text-align: center;
-  }
-
-  .attentionText {
     text-align: center;
   }
 
