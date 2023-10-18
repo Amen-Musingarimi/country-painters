@@ -1,0 +1,116 @@
+.homeServicesWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  width: 90%;
+}
+
+.sectionHeading {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  width: 60%;
+}
+
+.borderTop {
+  border-top: 4px dashed #ff0202;
+  width: 10rem;
+}
+
+.sectionDescription {
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.servicesContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 4rem;
+  padding: 1rem 0;
+}
+
+.serviceWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+  gap: 1rem;
+}
+
+.homeServiceImage {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  border: 0.6rem solid #ff0202;
+}
+
+.homeServiceName {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.homeServiceDescription {
+  text-align: center;
+  color: #999696;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.toServicesButton {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff0202;
+  font-size: 0.85rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.toServicesButton:hover {
+  background-color: #bb2121;
+}
+
+@media (max-width: 1024px) {
+  .homeServicesWrapper {
+    width: 100%;
+  }
+
+  .sectionHeading {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeServicesWrapper {
+    padding-top: 0;
+  }
+
+  .sectionHeading {
+    font-size: 1.3rem;
+  }
+
+  .servicesContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .serviceWrapper {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .homeServiceDescription {
+    width: 80%;
+  }
+}

@@ -1,0 +1,62 @@
+.whyUsContainer {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  padding: 0 1rem 1rem 1rem;
+  gap: 2rem;
+}
+
+.whyUsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.6rem;
+  border: 1px solid #d3d3d3;
+  padding: 1rem;
+  transition: background-color 0.3s;
+  transform-style: preserve-3d;
+}
+
+.whyUsCard:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  color: #ff0202;
+}
+
+.cardName {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.cardDescription {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #999696;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .whyUsContainer {
+    width: 100%;
+  }
+
+  .cardName {
+    font-size: 1.3rem;
+    color: #141c42;
+  }
+}
+
+@media (max-width: 768px) {
+  .whyUsContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cardName {
+    font-size: 1rem;
+    color: #141c42;
+  }
+}

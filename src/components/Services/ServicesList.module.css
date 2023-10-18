@@ -1,0 +1,238 @@
+.servicesListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  padding: 1% 5%;
+}
+
+.sectionHeading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-top: 2rem;
+}
+
+.borderTop {
+  border-top: 4px dashed #ff0202;
+  width: 10rem;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 1rem;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 2rem;
+}
+
+.servicesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3rem;
+  padding-right: 1rem;
+  width: 40%;
+}
+
+.serviceItemContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #d3d3d3;
+  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.serviceItemContainer:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.serviceName {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.serviceImage {
+  width: 5rem;
+  height: 5rem;
+}
+
+.serviceDetails,
+.subSectionsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+  gap: 2rem;
+}
+
+.serviceDetails {
+  width: 60%;
+  border-left: 1px solid #d3d3d3;
+  padding-left: 2rem;
+}
+
+.mainServiceHeader,
+.subServiceCaerdTextCont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.sectionImage {
+  width: 100%;
+  height: 25rem;
+}
+
+.serviceOverviewHeading {
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.sectionOverview,
+.cardDescrioption {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #999696;
+  line-height: 1.5rem;
+}
+
+.subSectionsContainer {
+  width: 100%;
+}
+
+.subServiceCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #d3d3d3;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.cardName,
+.cardTextHeading {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.toogleDetailsBtn {
+  border: none;
+  background-color: inherit;
+  color: #ff0202;
+  cursor: pointer;
+}
+
+.subServiceDetailsCont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.subServiceImage {
+  width: 15rem;
+  height: 15rem;
+}
+
+.subServiceCaerdTextCont {
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+.cardTextHeading {
+  color: #6e6d6d;
+}
+
+.bookServiceBtn {
+  text-decoration: none;
+  background-color: #ff0202;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.88rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bookServiceBtn:hover {
+  background-color: #a30d0d;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .servicesList {
+    width: 30%;
+  }
+
+  .serviceDetails {
+    width: 70%;
+  }
+
+  .subServiceDetailsCont {
+    flex-direction: column;
+  }
+
+  .subServiceImage {
+    width: 100%;
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .servicesListContainer {
+    gap: 2rem;
+  }
+
+  .listContainer {
+    flex-direction: column;
+  }
+
+  .servicesList {
+    width: 100%;
+    padding-right: 0;
+    gap: 1rem;
+  }
+
+  .serviceDetails {
+    width: 100%;
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .sectionImage {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .subServiceImage {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .bookServiceBtn {
+    width: 100%;
+  }
+}

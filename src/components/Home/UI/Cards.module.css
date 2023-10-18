@@ -1,0 +1,89 @@
+.wrappingDiv {
+  display: flex;
+  width: 90%;
+  height: 30rem;
+  background-color: #fff;
+  opacity: 0.9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.cardBtn {
+  border: none;
+  background-color: inherit;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  font-weight: 400;
+  color: #b4b2b2;
+  cursor: pointer;
+}
+
+.cardBtn:hover {
+  color: #8b8a8a;
+}
+
+.welcomeCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+.borderTop {
+  border-top: 4px dashed #ff0202;
+  width: 10rem;
+}
+
+.homeCardHeading {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.serviceHeading {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.aboutLink {
+  text-decoration: none;
+  text-align: center;
+  background-color: #ff0202;
+  color: #fff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.aboutLink:hover {
+  background-color: #a30d0d;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1024px) {
+  .wrappingDiv {
+    width: 100%;
+    height: 30rem;
+  }
+
+  .welcomeCard {
+    justify-content: space-around;
+    padding: 1rem;
+  }
+
+  .homeCardHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .serviceHeading {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .aboutLink {
+    width: 100%;
+  }
+}

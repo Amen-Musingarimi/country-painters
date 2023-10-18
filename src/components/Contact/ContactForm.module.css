@@ -1,0 +1,94 @@
+.formContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.formHeading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.labelCont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.formLabel {
+  color: #6e6d6d;
+}
+
+.input,
+.messageInput {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+}
+
+.erroMessage {
+  color: #ff0202;
+  font-size: 0.85rem;
+}
+
+.submitButton {
+  text-decoration: none;
+  background-color: #141c42;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.88rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+.submitButton:hover {
+  background-color: #070d30;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .formContainer {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .formContainer {
+    width: 100%;
+  }
+
+  .submitButton {
+    width: 100%;
+  }
+}

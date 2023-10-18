@@ -1,0 +1,92 @@
+.homeAboutContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  width: 90%;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.sectionHeading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.borderTop {
+  border-top: 4px dashed #ff0202;
+  width: 10rem;
+}
+
+.sectionDescription {
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.reasonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.reasonCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.checkMark {
+  color: #ff0202;
+  font-size: 1.5rem;
+}
+
+.reasonText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.8rem;
+}
+
+.reasonName {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.reasonDescription {
+  color: #807d7d;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .homeAboutContainer,
+  .sectionHeader {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+  }
+
+  .sectionHeading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .borderTop {
+    width: 10rem;
+  }
+
+  .sectionDescription {
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.3rem;
+  }
+}
